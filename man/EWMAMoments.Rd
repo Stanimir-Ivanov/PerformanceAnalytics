@@ -75,6 +75,7 @@ JP Morgan. Riskmetrics technical document. 1996.
 }
 \seealso{
 \code{\link{CoMoments}} \cr \code{\link{ShrinkageMoments}} \cr \code{\link{StructuredMoments}}
+ \cr \code{\link{NCE}}
 }
 \author{
 Dries Cornilly

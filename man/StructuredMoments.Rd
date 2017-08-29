@@ -102,6 +102,7 @@ Management Science, 39(5), 68-577.
 }
 \seealso{
 \code{\link{CoMoments}} \cr \code{\link{ShrinkageMoments}} \cr \code{\link{EWMAMoments}}
+ \cr \code{\link{NCE}}
 }
 \author{
 Dries Cornilly

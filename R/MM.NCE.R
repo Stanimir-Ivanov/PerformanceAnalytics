@@ -286,24 +286,8 @@ NCE_obj_ineq <- function(theta, p, k, W, m2, m3, m4, include.mom, B, epsvar, fsk
 #' 
 #' data(edhec)
 #' 
-#' # EWMA estimation
-#' # 'as.mat = F' would speed up calculations in higher dimensions
-#' sigma <- M2.ewma(edhec, 0.94)
-#' m3 <- M3.ewma(edhec, 0.94)
-#' m4 <- M4.ewma(edhec, 0.94)
-#' 
-#' # compute equal-weighted portfolio modified ES 
-#' mu <- colMeans(edhec)
-#' p <- length(mu)
-#' ES(p = 0.95, portfolio_method = "component", weights = rep(1 / p, p), mu = mu, 
-#'     sigma = sigma, m3 = m3, m4 = m4)
-#' 
-#' # compare to sample method
-#' sigma <- cov(edhec)
-#' m3 <- M3.MM(edhec)
-#' m4 <- M4.MM(edhec)
-#' ES(p = 0.95, portfolio_method = "component", weights = rep(1 / p, p), mu = mu, 
-#'     sigma = sigma, m3 = m3, m4 = m4)
+#' # NCE estimation
+#' TODO
 #' 
 #' @export MM.NCE
 MM.NCE <- function(R, include.mom = c(TRUE, TRUE, TRUE), as.mat = TRUE, ...) {

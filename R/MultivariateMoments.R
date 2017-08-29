@@ -313,6 +313,7 @@ M4.mat2vec <- function(M4) {
 #' TRUE
 #' @author Dries Cornilly
 #' @seealso \code{\link{CoMoments}} \cr \code{\link{StructuredMoments}} \cr \code{\link{EWMAMoments}}
+#'  \cr \code{\link{NCE}}
 #' @references Boudt, Kris, Brian G. Peterson, and Christophe Croux. 2008.
 #' Estimation and Decomposition of Downside Risk for Portfolios with Non-Normal
 #' Returns. Journal of Risk. Winter.
@@ -1005,6 +1006,7 @@ M4.shrink <- function(R, targets = 1, f = NULL, as.mat = TRUE) {
 #' TRUE
 #' @author Dries Cornilly
 #' @seealso \code{\link{CoMoments}} \cr \code{\link{ShrinkageMoments}} \cr \code{\link{EWMAMoments}}
+#'  \cr \code{\link{NCE}}
 #' @references Boudt, Kris, Lu, Wanbo and Peeters, Benedict. 2015. Higher order comoments of multifactor 
 #' models and asset allocation. Finance Research Letters, 13, 225-233.
 #' 
@@ -1352,6 +1354,7 @@ M4.struct <- function(R, struct = c("Indep", "IndepId", "observedfactor", "CC"),
 #' @param \dots any other passthru parameters
 #' @author Dries Cornilly
 #' @seealso \code{\link{CoMoments}} \cr \code{\link{ShrinkageMoments}} \cr \code{\link{StructuredMoments}}
+#'  \cr \code{\link{NCE}}
 #' @references 
 #' JP Morgan. Riskmetrics technical document. 1996.
 ###keywords ts multivariate distribution models
